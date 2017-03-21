@@ -18,7 +18,7 @@ All usual caveats apply:
 - _Depending on your findings, you may be under ethical imperative to share your findings with those sites you are crawling._
 
 
-# Okay, on to the good stuff...
+## Okay, on to the good stuff...
 
 This isn't about defeating captcha software, it is about not triggering them.
 
