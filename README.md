@@ -17,12 +17,9 @@ All usual caveats apply:
 - _The robots.txt file will often list what directories not to crawl.  Be respectful._
 - _Depending on your findings, you may be under ethical imperative to share your findings with those sites you are crawling._
 
+###This isn't about defeating captcha software, it is about not triggering them.
 
-## Okay, on to the good stuff...
-
-This isn't about defeating captcha software, it is about not triggering them.
-
-THREE BREIF STATEGIES ARE:
+THREE STATEGIES, BRIEFLY, ARE:
 1. Slow Down
 2. Change User Agents
 3. Change IP Through Proxy
