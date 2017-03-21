@@ -18,7 +18,7 @@ download_on_timer <- function(){
                 writeBin(bin, saveName) # now write to file
         
                 #set time
-                ttime <- abs(rnorm(1, 3, 1)) #honstly this is probably unessesary, but it adds a little variation.
+                ttime <- abs(rnorm(1, 3, 1)) #honstly this is probably unnecessary, but it adds a little variation to life.
                 #ttime <- 3 #likely sufficient. Play around to see how the server you're working with reacts.
                 
                 #set expectation
@@ -34,6 +34,7 @@ download_on_timer <- function(){
 
 # # Approach #2 (Less Polite)
 #  - Identify Yourself Differently -
+
 #  This can also be a handy way to retrieve mobile versions of web pages.
 #  For a non-definative list of user agents from many different device types, check out:
 #  https://deviceatlas.com/blog/list-of-user-agent-strings
@@ -113,7 +114,7 @@ rotate_ip <- function(){
                 Sys.sleep(ttime)
     
         
-      #get new IP
+        #Get new IP
                 
                 #open the following page and select a proxy that is fresh and secure
                 #this can be done via scraping, but that's for another day
