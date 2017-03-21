@@ -1,5 +1,5 @@
 # crawlPolitely
-(3) Brief Examples of Polite Web Crawling using R to Avoid Being Blacklisted
+(3) Brief R Examples of Polite Web Crawling to Avoid Being Blacklisted
 
 by Ezra Birt:
 ezrabirt@gmail.com
