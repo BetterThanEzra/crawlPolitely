@@ -18,7 +18,7 @@ THREE STRATEGIES, BRIEFLY, ARE:
 
 
 All usual caveats apply:
-- _The follwoing practices, though likely not illegal, may violate your terms of use agreement. Please inform yourselves._
+- _The following practices, though likely not illegal, may violate your terms of use agreement. Please inform yourself._
 - _The robots.txt file will often list what directories not to crawl.  Be respectful._
 - _Depending on your findings, you may be under ethical imperative to share your findings with those sites you are crawling._
 
