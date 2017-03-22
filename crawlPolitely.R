@@ -35,9 +35,11 @@ download_on_timer <- function(){
 # # Approach #2 (Less Polite)
 #  - Identify Yourself Differently -
 
-#  This can also be a handy way to retrieve mobile versions of web pages.
+#  This approach can also be a handy way to retrieve mobile versions of web pages.
 #  For a non-definative list of user agents from many different device types, check out:
 #  https://deviceatlas.com/blog/list-of-user-agent-strings
+
+# Current user agent can be accessed with getOption("HTTPUserAgent"). It is also listed in str(options())
 
 
 change_user_agent <- function(){
@@ -65,7 +67,9 @@ change_user_agent <- function(){
         
                 agentName <- "This is a modified user agent used by my bot. If you would prefer your wibsite not be scraped, please reach me at polite@scraper.com"
         
-                grHTML <- GET(newUrl, user_agent(agentName))
+                options(HTTPUserAgent = agentName)
+        
+                grHTML <- GET(newUrl)
         
                 grName <- paste("modified_user_agent.html")
         
